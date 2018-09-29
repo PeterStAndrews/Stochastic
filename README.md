@@ -6,9 +6,10 @@ A collection of algorithms that integrate a coupled system of ODEs using stochas
 
 `gillespie` contains an implementation of the direct stochastic simulation algorithm by Gillespie [1,2]. To use this class, simply import the `Gillespie.h` header file into your script and subclass it to override the virtual methods as has been done for the SIR system in `Gillespie_SIR.cpp` and run the experiment in a `main()` function (see `multi_run.cpp`). For this experiment, we track the final epidemic size as a function of the infectivity of the disease. The output can be plotted to generate: 
 
-![picture1](https://user-images.githubusercontent.com/29250174/46246444-904a6a80-c3f5-11e8-8ca6-138b137d0bb8.png)
+![pdftojpg me-1-2](https://user-images.githubusercontent.com/29250174/46246662-44012980-c3f9-11e8-8d43-089bd0d1df71.jpg)
 
 subject to stochastic fluctuations. 
+
 
 [1] Daniel Gillespie. A general method for numerically simulating the stochastic time evolution of coupled chemical reactions. Journal of Computational Physics 22, pages 403-–434. 1976.
 
