@@ -1,5 +1,7 @@
 // (C) Peter Mann (2018) [University of St Andrews].
 // Class to house the user sub-class for `Gillespie.cpp` stochastic simulation. 
+//
+// This example integrates an SIR system of ODEs.
 
 #include <iostream>
 #include <fstream>
